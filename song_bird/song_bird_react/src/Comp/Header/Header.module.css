@@ -1,0 +1,11 @@
+.birdName{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+

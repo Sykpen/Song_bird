@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import css from './Footer.module.css';
 
 const Footer = () => {
     return (
-        <div>Нечеловеческий FOOTER</div>
+        <button className={css.button}>Next Level</button>
     )
 }
 
