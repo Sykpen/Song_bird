@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Option = (props) => {
+
     return (
         <div>
-            {props.name}
+            {props.name} 
         </div>
     )
 }

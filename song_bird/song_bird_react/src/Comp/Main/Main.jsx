@@ -1,13 +1,14 @@
 import React from 'react';
 import css from './Main.module.css';
+import birdsData from '../../birdsData';
 
 const Main = () => {
     return (
         <div className={css.main}>
-            <div className={css.img}><img src='#' alt='Ky-ky'></img></div>
+            <div className={css.img}><img className={css.imgimg} src={birdsData[0][0].image} alt='Ky-ky'></img></div>
             <div>
-                <div><p>Ястреб</p></div>
-                <div><audio controls src='https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3'></audio></div>
+                <div><p>{birdsData[0][0].name}</p></div>
+                <div><audio controls src={birdsData[0][0].audio}></audio></div>
             </div>
         </div>
     )
