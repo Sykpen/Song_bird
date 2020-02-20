@@ -1,5 +1,8 @@
 .main{
-    width: 40%;
+    flex-shrink: 0;
+    width: 600px;
+    background-color:#2d2d2d;
     min-width: 300px;
+    border: 1px solid #535353;
 }
 

@@ -1,5 +1,5 @@
 .birdName{
-    background-color: green;
+    background-color: #008a66;
     color: white;
     border-radius: 10px;
     display: flex;
@@ -7,5 +7,13 @@
     justify-content: space-around;
     height: 40px;
     align-items: center;
+    margin-bottom: 30px;
+}
+.birdName_item .active{
+    background-color:#00be8d ; 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}

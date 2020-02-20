@@ -5,7 +5,7 @@ import birdsData from '../../../birdsData';
 import { Route } from 'react-router-dom';
 
 
-let warmup = birdsData[0];
+let warmup = birdsData.warmup;
 let birdswarmup = warmup
     .map(birdName => { return <Option name={birdName.name} /> });
 
@@ -18,7 +18,7 @@ const Warmup = () => {
     )
 }
 
-let firstGroup = birdsData[1];
+let firstGroup = birdsData.firstClassBirds;
 
 let birdsfirstGroup = firstGroup
     .map(birdName => { return <Option name={birdName.name} /> });
@@ -32,12 +32,13 @@ const FirstGroup = () => {
     )
 }
 
-let secondGroup = birdsData[2];
+let secondGroup = birdsData.secondClassBirds;
 
 let birdssecondGroup = secondGroup
     .map(birdName => { return <Option name={birdName.name} /> });
 
 const SecondGroup = () => {
+
 
     return (
         <div>
@@ -46,7 +47,7 @@ const SecondGroup = () => {
     )
 }
 
-let thirdGroup = birdsData[3];
+let thirdGroup = birdsData.thirdClaasBird;
 
 let birdsthirdGroup = thirdGroup
     .map(birdName => { return <Option name={birdName.name} /> });
@@ -60,7 +61,7 @@ const ThirdGroup = () => {
     )
 }
 
-let fourthGroup = birdsData[4];
+let fourthGroup = birdsData.fourthClassBirds;
 
 let birdsfourthGroup = fourthGroup
     .map(birdName => { return <Option name={birdName.name} /> });
@@ -73,7 +74,7 @@ const FourthGroup = () => {
     )
 }
 
-let fifthGroup = birdsData[5];
+let fifthGroup = birdsData.fifthClassBirds;
 
 let birdsfifthGroup = fifthGroup
     .map(birdName => { return <Option name={birdName.name} /> });
@@ -87,8 +88,7 @@ const FifthGroup = () => {
     )
 }
 
-const Options = () => {
-
+const Options = (props) => {
     return (
         <div className={Css.main}>
             <Route path='/Header/1' component={Warmup}></Route>

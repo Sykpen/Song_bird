@@ -1,11 +1,12 @@
 import React from 'react';
-import css from './Logo.module.css'
+import css from './Logo.module.css';
+import logo from '../../images/logoBird.png'
 
 const Logo = () => {
     return (
         <div className={css.main}>
-            <div><span>SONG</span><span>BIRD</span></div>
-            <div>Score : 0</div>
+            <div><img className={css.img} src={logo}></img></div>
+            <div className={css.score}>Score : 11</div>
         </div>
     )
 }

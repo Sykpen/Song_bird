@@ -1,9 +1,10 @@
 import React from 'react';
+import css from './Option.module.css'
 
 const Option = (props) => {
 
     return (
-        <div>
+        <div className={css.item}>
             {props.name} 
         </div>
     )

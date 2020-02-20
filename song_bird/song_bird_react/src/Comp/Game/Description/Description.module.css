@@ -1,3 +1,31 @@
+
 .main{
-    width: 40%;
+    display: flex;
+}
+
+.imgimg{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+    padding:20px;
+    padding-bottom: 0px;
+}
+
+.description{
+    flex-shrink: 0;
+    width: 600px;
+    border: 2px solid #535353;
+    background-color: #2d2d2d;
+}
+
+.text{
+    color: white;
+    font-size: 18px;
+    border-bottom: 2px solid #535353;
+}
+
+.longText{
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
 }

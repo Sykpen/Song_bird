@@ -1,5 +1,5 @@
-const birdsData = [
-    [       
+const birdsData = {
+    warmup: [       
       {
         id: 1,
         name: 'Ворон',
@@ -49,7 +49,7 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/RFGQDPLDEC/XC518417-Kj%C3%B8ttmeis%20XC%20Helg%C3%B8ya%20Elias%20A.%20Ryberg20200108133922_079.mp3'
       }
     ],
-    [
+    firstClassBirds: [
       {
         id: 1,
         name: 'Воробей',
@@ -99,7 +99,7 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/TFOGOENSTQ/XC501517-191008_1590%201300.%20Eichelh%C3%A4her%20D%2C%20NW%2C%20LEV.%20Stephan%20Risch.mp3'
       }
     ],
-    [
+    secondClassBirds: [
       {
         id: 1,
         name: 'Зяблик',
@@ -149,7 +149,7 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/TMUAWSDHDJ/XC511871-G.mp3'
       }
     ],
-    [
+    thirdClaasBird: [
       {
         id: 1,
         name: 'Жаворонок',
@@ -199,7 +199,7 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489265-190724_07.58h_putter_biesbosch_%20boompjes%20langs%20open%20water_zang_1ex_ad_niet%20gezien_.mp3'
       }
     ],
-    [
+    fourthClassBirds: [
       {
         id: 1,
         name: 'Орёл',
@@ -249,7 +249,7 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC518386-sense%20t%C3%ADtol.mp3'
       }
     ],
-    [
+    fifthClassBirds: [
       {
         id: 1,
         name: 'Альбатрос',
@@ -299,6 +299,6 @@ const birdsData = [
         audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC501190-190801_06.50h_zilvermeeuw_duinen%20van%20goeree_roep_2ex_overvliegend_gezien_.mp3'
       }
     ]
-  ];
+};
   
   export default birdsData;

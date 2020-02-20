@@ -3,11 +3,11 @@ import Options from './Options/Options';
 import Description from './Description/Description';
 import Css from './Game.module.css';
 
-const Game = () => {
+const Game = (props) => {
     return (
         <div className={Css.main}>
-            <Options />
-            <Description />
+            <Options state={props.state}/>
+            <Description state={props.state}/>
         </div>
     )
 }

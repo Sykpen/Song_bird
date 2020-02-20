@@ -1,14 +1,13 @@
 import React from 'react';
 import css from './Main.module.css';
-import birdsData from '../../birdsData';
 
-const Main = () => {
+const Main = (props) => {
     return (
         <div className={css.main}>
-            <div className={css.img}><img className={css.imgimg} src={birdsData[0][0].image} alt='Ky-ky'></img></div>
-            <div>
-                <div><p>{birdsData[0][0].name}</p></div>
-                <div><audio controls src={birdsData[0][0].audio}></audio></div>
+            <div className={css.img}><img className={css.imgimg} src='https://live.staticflickr.com//65535//49298804222_474cfe8682.jpg' alt='Ky-ky'></img></div>
+            <div className={css.audio_text}>
+                <div><p className={css.text}>Ворон</p></div>
+                <div><audio controls src='https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3'></audio></div>
             </div>
         </div>
     )
