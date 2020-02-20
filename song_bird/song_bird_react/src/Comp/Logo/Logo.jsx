@@ -5,7 +5,7 @@ import logo from '../../images/logoBird.png'
 const Logo = () => {
     return (
         <div className={css.main}>
-            <div><img className={css.img} src={logo}></img></div>
+            <div><img className={css.img} src={logo} alt='Voron'></img></div>
             <div className={css.score}>Score : 11</div>
         </div>
     )
